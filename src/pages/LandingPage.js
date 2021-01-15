@@ -13,7 +13,7 @@ export default class LandingPage extends Component {
       <>
         <Header {...this.props}></Header>
         <Hero data={landingPage.hero} />
-        <MostPicked data={landingPage.hero} />
+        <MostPicked data={landingPage.mostPicked} />
       </>
     );
   }

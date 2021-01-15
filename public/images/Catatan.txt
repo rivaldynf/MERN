@@ -1,0 +1,3 @@
+"imageUrl": "/images/image-mostpicked-1.jpg",
+
+Letak nya di Folder public->images
