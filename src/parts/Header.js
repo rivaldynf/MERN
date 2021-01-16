@@ -4,7 +4,7 @@ import Button from "elements/Button";
 import BrandIcon from "parts/IconText";
 
 export default function Header(props) {
-  const getNavLinkClass = path => {
+  const getNavLinkClass = (path) => {
     return props.location.pathname === path ? " active" : "";
   };
 
@@ -13,6 +13,7 @@ export default function Header(props) {
       <div class="container">
         <nav className="navbar navbar-expand-lg navbar-light">
           <BrandIcon />
+
           <div className="collapse navbar-collapse">
             {/* ordered list */}
             <ul className="navbar-nav ml-auto">

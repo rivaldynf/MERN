@@ -34,7 +34,7 @@ export default function Hero(props) {
             make another memorable moments
           </p>
           <Button
-            className="btn-px-5"
+            className="btn px-5"
             hasShadow
             isPrimary
             onClick={showMostPicked}
