@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+@import "colorVariables"; // BWA MERN
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -50,6 +51,7 @@
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: $primary;
+
   &:hover {
     color: $primary;
     text-decoration: none;
@@ -212,6 +214,11 @@ section {
         transform: scale(1);
       }
     }
-
   }
+}
+
+.testimonial-hero,
+.testimonial-hero img {
+  width: 365px;
+  height: 500px;
 }
