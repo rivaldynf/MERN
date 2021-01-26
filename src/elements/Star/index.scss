@@ -12,9 +12,9 @@
 
     &:not(.placeholder) {
       z-index: 2;
+
       background-color: $yellow;
     }
-
     &.placeholder {
       z-index: 1;
       background-color: $gray-200;

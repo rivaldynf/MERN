@@ -78,7 +78,7 @@ export default function Hero(props) {
             </div>
 
             {/* Gambar 3 */}
-            <div className="col-auto" style={{ marginRight: 35 }}>
+            <div className="col-auto">
               <img
                 width="36"
                 height="36"

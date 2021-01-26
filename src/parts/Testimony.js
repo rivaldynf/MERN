@@ -6,7 +6,7 @@ import TestimonyAccent from "assets/images/testimonial-landingpages-frame.jpg";
 import Star from "elements/Star";
 import Button from "elements/Button";
 
-export default function Testimony() {
+export default function Testimony({ data }) {
   return (
     <Fade bottom>
       <section className="container">
@@ -27,7 +27,7 @@ export default function Testimony() {
                 src={TestimonyAccent}
                 alt="Testimonial frame"
                 className="position-absolute"
-                style={{ margin: `-30px 0 0 30px` }}
+                style={{ margin: `-30px 0 0 -30px` }}
               />
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Testimony() {
             <div>
               <Button
                 className="btn px-5"
-                style={{ maginTop: 40 }}
+                style={{ marginTop: 40 }}
                 hasShadow
                 isPrimary
                 type="link"
@@ -58,7 +58,7 @@ export default function Testimony() {
             </div>
           </div>
         </div>
-    </section>
-      </Fade>
+      </section>
+    </Fade>
   );
 }

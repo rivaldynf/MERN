@@ -77,3 +77,4 @@ Star.propTypes = {
   height: propTypes.number,
   spacing: propTypes.number
 };
+

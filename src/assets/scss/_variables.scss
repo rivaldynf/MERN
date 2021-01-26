@@ -41,7 +41,7 @@ $colors: map-merge(
   $colors
 );
 
-$primary: $indigo !default;
+$primary: $indigo !default; // BWA MERN
 $secondary: $gray-900 !default;
 $success: $green !default;
 $info: $cyan !default;

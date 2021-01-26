@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="col-auto" style={{ width: 350 }}>
             <IconText />
             <p className="brand-tagline">
-              We kaboom your beauty holiday instantly and memorable
+              We kaboom your beauty holiday instantly and memorable.
             </p>
           </div>
 
@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
 
           {/* Col Kerdua */}
-          <div className="col-3 mr-5">
+          <div className="col-2 mr-5">
             <h6 className="mt-2">Explore Us</h6>
             <ul className="list-group list-group-flush">
               {/*  */}
@@ -69,7 +69,7 @@ export default function Footer() {
           </div>
 
           {/*  */}
-          <div className="col-4">
+          <div className="col-3">
             <h6 className="mt-2">Connect Us</h6>
             <ul className="list-group list-group-flush">
               {/*  */}
@@ -79,14 +79,14 @@ export default function Footer() {
                   type="link"
                   href="mailto: support@staycation.id"
                 >
-                  Rivaldynf@gmail.com
+                  support@staycation.id
                 </Button>
               </li>
 
               {/*  */}
               <li className="list-group-item">
-                <Button isExternal type="link" href="tel:+6281387575916">
-                  +62 813 8757 5916
+                <Button isExternal type="link" href="tel:+622122081996">
+                  021 - 2208 - 1996
                 </Button>
               </li>
 
@@ -101,7 +101,7 @@ export default function Footer() {
 
         <div className="row">
           <div className="col text-center copyrights">
-            Copyrights 2020 * All rights reserved * Staycation
+            Copyright 2019 • All rights reserved • Staycation
           </div>
         </div>
       </div>
