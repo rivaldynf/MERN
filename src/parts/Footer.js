@@ -77,7 +77,7 @@ export default function Footer() {
                 <Button
                   isExternal
                   type="link"
-                  href="mailto: support@staycation.id"
+                  href="mailto:support@staycation.id"
                 >
                   support@staycation.id
                 </Button>
@@ -92,7 +92,7 @@ export default function Footer() {
 
               {/*  */}
               <li className="list-group-item">
-                <span>Staycation, Kemang Jakarta</span>
+                <span>Staycation, Kemang, Jakarta</span>
               </li>
             </ul>
           </div>
@@ -108,3 +108,4 @@ export default function Footer() {
     </footer>
   );
 }
+
